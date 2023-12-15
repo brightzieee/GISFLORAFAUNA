@@ -1,0 +1,11 @@
+INFO - 2023-11-19 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-19 07:37:16 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\v_kawasan_konservasi.php on line 44.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_kawasan_konservasi', [], true)
+ 4 APPPATH\Controllers\Kawasan_Konservasi.php(19): view('v_kawasan_konservasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kawasan_Konservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kawasan_Konservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

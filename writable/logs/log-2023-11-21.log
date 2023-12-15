@@ -1,0 +1,18 @@
+CRITICAL - 2023-11-21 07:42:39 --> Invalid file: "v_conservation_area.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_conservation_area.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_conservation_area', [], true)
+ 3 APPPATH\Controllers\Conservation_Area.php(12): view('v_conservation_area', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:42:41 --> Invalid file: "v_conservation_area.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_conservation_area.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_conservation_area', [], true)
+ 3 APPPATH\Controllers\Conservation_Area.php(12): view('v_conservation_area', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

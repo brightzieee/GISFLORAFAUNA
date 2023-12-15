@@ -1,0 +1,77 @@
+CRITICAL - 2023-11-17 09:07:04 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:08:26 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:15:40 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:17:14 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 423.
+ 1 APPPATH\Views\v_profile.php(1): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:18:37 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:21:00 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:22:43 --> Undefined variable $title_content
+in APPPATH\Views\v_profile.php on line 10.
+ 1 APPPATH\Views\v_profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title_content', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\v_profile.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('v_profile', [], true)
+ 5 APPPATH\Controllers\Account.php(9): view('v_profile')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Account->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

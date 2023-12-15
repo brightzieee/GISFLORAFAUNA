@@ -1,0 +1,81 @@
+INFO - 2023-12-14 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 15:24:55 --> Undefined variable $datus
+in APPPATH\Views\Area\v_data_area.php on line 55.
+ 1 APPPATH\Views\Area\v_data_area.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datus', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(118): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:31:21 --> Undefined variable $datar
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datar', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(118): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:31:40 --> Unmatched '}'
+in APPPATH\Views\Area\v_data_area.php on line 65.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 3 APPPATH\Controllers\Conservation_Area.php(118): view('Area/v_data_area', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:42:48 --> Unmatched '}'
+in APPPATH\Views\Area\v_data_area.php on line 65.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 3 APPPATH\Controllers\Conservation_Area.php(118): view('Area/v_data_area', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 15:42:50 --> Unmatched '}'
+in APPPATH\Views\Report\v_data_user.php on line 68.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 3 APPPATH\Controllers\User_Reporting.php(21): view('Report/v_data_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 15:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 23:58:34 --> Unmatched '}'
+in APPPATH\Views\Area\v_data_area.php on line 65.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 3 APPPATH\Controllers\Conservation_Area.php(118): view('Area/v_data_area', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 23:58:39 --> Unmatched '}'
+in APPPATH\Views\Report\v_data_user.php on line 68.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 3 APPPATH\Controllers\User_Reporting.php(21): view('Report/v_data_user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 23:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
