@@ -1,0 +1,40 @@
+CATATAN PROGRAM.
+
+Controller Flora, Fauna, dan Conservation_Area
+1. Diberi komentar ('//'), karena script error;
+2. public function insertData tidak terpanggil;
+===================================================================================================================================================
+===================================================================================================================================================
+Folder Report -> v_user_reporting
+1. Di web ada search coloumn, tapi di script tidak ada;
+2. Script copy, csv, excel, pdf, print, dan coloum visibility ada di ('index', 'bagian script "DataTables" setelah script JS);
+====================================================================================================================================================
+====================================================================================================================================================
+Folder Area -> v_data_user
+1. Di web ada search coloumn, tapi di script tidak ada;
+2. Script copy, csv, excel, pdf, print, dan coloum visibility ada di ('index', 'bagian script "DataTables" setelah script JS);
+====================================================================================================================================================
+====================================================================================================================================================
+Folder Flora, Fauna, dan Area -> v_flora, v_fauna, dan v_conservation_area
+1. Diberi komentar (<!-- Validation Data -->), apakah sudah benar?;
+2. text-danger pada setiap label nama, juga apakah sudah benar?;
+3. Belum memberi script perintah apapun di bagian ('Upload Gambar');
+4. Khusus di script v_conservation_area, belum diberi script dan bingung untuk bagian ('province, city, district, longitude, latitude, dan posisi');
+====================================================================================================================================================
+====================================================================================================================================================
+Model:
+1. Flora -> ModelOrganism;
+2. Fauna -> ModelOrganism;
+3. Conservation_Area -> ModelArea;
+====================================================================================================================================================
+====================================================================================================================================================
+Database:
+1. Flora dan Fauna -> tb_organism;
+2. Conservation Area -> tb_area;
+3. Reporting -> tb_report;
+4. Admin -> tb_admin;
+5. User -> tb_user;
+6. Province, City, dan District -> tb_province, tb_city, tb_district;
+
+TAMBAHAN:
+*DATABASE SUDAH DIBUAT BERELASI;
