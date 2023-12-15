@@ -5,12 +5,12 @@ Database:
 4. Admin -> tb_admin;
 5. User -> tb_user;
 6. Province, City, dan District -> tb_province, tb_city, tb_district;
-=================================================================================================================================================
+================================================================================================================================================
 Model:
 1. Flora -> ModelOrganism;
 2. Fauna -> ModelOrganism;
 3. Conservation_Area -> ModelArea;
-=================================================================================================================================================
+================================================================================================================================================
 Controller Flora, Fauna, dan Conservation_Area
 1. Diberi komentar ('//'), karena script error;
 2. public function insertData tidak terpanggil;
@@ -18,4 +18,4 @@ Controller Flora, Fauna, dan Conservation_Area
 Folder Report -> v_user_reporting
 1. Di web ada search coloumn, tapi di script tidak ada;
 2. Script copy, csv, excel, pdf, print, dan coloum visibility ada di ('index', 'bagian script "DataTables" setelah script JS);
-=================================================================================================================================================
+================================================================================================================================================
