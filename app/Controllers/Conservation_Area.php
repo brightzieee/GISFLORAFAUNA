@@ -6,13 +6,11 @@ use App\Models\ModelArea;
 
 class Conservation_Area extends BaseController
 {
-    private $ModelArea;
-
+    private $ModelArea = null;
     public function __construct()
     {
         $this->ModelArea = new ModelArea();
     }
-    
     public function index(): string
     {
         $data = [
@@ -53,7 +51,7 @@ class Conservation_Area extends BaseController
                 'label' => 'Address',
                 'rules' => 'required',
                 'errors' => [
-                    'required' => '{field} Tidak Boleh Kosong!' 
+                    'required' => '{field} Tidak Boleh Kosong!'
                 ]
             ],  'kk_province' => [
                 'label' => 'Province',
@@ -107,14 +105,14 @@ class Conservation_Area extends BaseController
             //Jika Tidak Lolos Validasi
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
             //return redirect()->to(base_url('Conservation_Area'))->withInput('validation', \Config\Services::validation());
-        }   
+        }
     }
 
     public function dataArea(): string
     {
         $data = [
             'title_content' => 'Data Conservation Area',
-            'data_area' => $this->ModelArea->findAll()
+            'datar' => $this->ModelArea->findAll()
         ];
         return view('Area/v_data_area', $data);
     }

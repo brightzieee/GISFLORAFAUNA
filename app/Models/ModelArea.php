@@ -27,5 +27,6 @@ class ModelArea extends Model
         'kk_image',
         'kk_description',
         'created_at',
-        'updated_at'];
+        'updated_at'
+    ];
 }
