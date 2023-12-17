@@ -25,12 +25,12 @@
                 <div class="small-box bg-success">
                     <div class="inner">
                         <h3>53</h3>
-                        <p>Gallery of Flora</p>
+                        <p>Flora Data</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-images"></i>
                     </div>
-                    <a href="<?= base_url('Flora/galleryFlora') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="<?= base_url('Flora') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- /.End Gallery of Flora -->
@@ -40,12 +40,12 @@
                 <div class="small-box bg-secondary">
                     <div class="inner">
                         <h3>44</h3>
-                        <p>Gallery of Fauna</p>
+                        <p>Fauna Data</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-images"></i>
                     </div>
-                    <a href="<?= base_url('Fauna/galleryFauna') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="<?= base_url('Fauna') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- /.End Gallery of Fauna -->
@@ -70,7 +70,7 @@
                 <div class="small-box bg-danger">
                     <div class="inner">
                         <h3>65</h3>
-                        <p>User Reporting Table</p>
+                        <p>User Reporting Data</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-android-chat"></i>

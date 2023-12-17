@@ -22,7 +22,7 @@
             <div class="card card-outline card-primary">
                 <!-- Headline -->
                 <div class="card-header text-center">
-                    <h1><b>Flora dan Fauna</b></h1>
+                    <h1><b>Flora and Fauna</b></h1>
                 </div>
                 
                 <div class="card-body">
@@ -31,7 +31,7 @@
                     <!-- Register Column -->
                     <form action="#" method="post">
                         <!-- Full Name Column -->
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-2">
                             <input type="text" class="form-control" placeholder="Full name">
                             <div class="input-group-append">
                                 <div class="input-group-text">
@@ -51,7 +51,7 @@
                         </div>
                         
                         <!-- Password Column -->
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-4">
                             <input type="password" class="form-control" placeholder="Password">
                             <div class="input-group-append">
                                 <div class="input-group-text">
@@ -61,7 +61,7 @@
                         </div>
                         
                         <!-- Retype Password Column -->
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-5">
                             <input type="password" class="form-control" placeholder="Retype password">
                             <div class="input-group-append">
                                 <div class="input-group-text">
@@ -71,16 +71,15 @@
                         </div>
                         
                         <!-- Register Button -->
-                        <div class="mb-3">
+                        <div class="mb-0">
                             <button type="submit" class="btn btn-primary btn-block">Register</button>
                         </div>
                     </form>
                     <!-- /.End Register Column -->
                     
                     <br>
-                    <br>
                     <!-- Login Button -->
-                    <div class="text-center">
+                    <div class="text-center mb-1">
                         <a href="<?= base_url('Auth') ?>">Already have an account? Login</a>
                     </div>
                 </div>

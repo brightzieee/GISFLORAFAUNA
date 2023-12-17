@@ -26,6 +26,7 @@
     <section class="content">
         <div class="container-fluid">
             <div class="row">
+                
                 <!-- Data Tables -->
                 <div class="col-12">
                     <div class="card">
@@ -39,19 +40,19 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Number Phone</th>
-                                        <th>Organism Type</th>
-                                        <th>Organism Name</th>
-                                        <th>Address</th>
-                                        <th>Image</th>
                                         <th>Date</th>
+                                        <th>Type of Organism</th>
+                                        <th>Organism Name</th>
+                                        <th>Image of Organism</th>
+                                        <th>Address</th>
                                     </tr>
                                 </thead>
                                 <!-- /.End Headline -->
 
                                 <!-- Data -->
                                 <tbody>
-                                    //<?php $no = 1;
-                                    //foreach ($datar as $keu -> $value) { ?>
+                                    <?php $no = 1;
+                                    foreach ($data_user as $key => $value) { ?>
 
                                     <tr>
                                         <td><?= $no++ ?></td>
@@ -65,7 +66,7 @@
                                         <td><?= $value['kk_description'] ?></td>
                                     </tr>
 
-                                    //<?php } ?>
+                                    <?php } ?>
                                 </tbody>
                                 <!-- /.End Data -->
                             </table>

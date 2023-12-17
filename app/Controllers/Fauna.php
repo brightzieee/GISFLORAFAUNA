@@ -2,20 +2,22 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
 use App\Models\ModelOrganism;
 
 class Fauna extends BaseController
 {
-    //public function __construct()
-    //{
-    //    $this->ModelOrganism = new ModelOrganism();
-    //}
+    private $ModelOrganism;
+
+    public function __construct()
+    {
+        $this->ModelOrganism = new ModelOrganism();
+    }
     
     public function index(): string
     {
         $data = [
             'title_content' => 'Fauna Data Input',
+            'data_fauna' => $this->ModelOrganism->findAll()
         ];
         return view('Fauna/v_fauna', $data);
     }
@@ -25,7 +27,7 @@ class Fauna extends BaseController
         if ($this->validate([
             //Jika Lolos Validasi
             'or_name_org' => [
-                'label' => 'Fauna Name',
+                'label' => 'Name of Fauna',
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} Tidak Boleh Kosong!'
@@ -56,7 +58,7 @@ class Fauna extends BaseController
                     'required' => '{field} Tidak Boleh Kosong!'
                 ]
             ],  'or_description' => [
-                'label' => 'Description',
+                'label' => 'Description of Fauna',
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} Tidak Boleh Kosong!'
@@ -88,21 +90,12 @@ class Fauna extends BaseController
                 'or_eksitu' => $this->request->getPost('or_eksitu')
             ];
 
-            //$this->ModelOrganism->insertData($data);
-            //session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
+            $this->ModelOrganism->insertData($data);
+            session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
 
             //Jika Tidak Lolos Validasi
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
             //return redirect()->to(base_url('Fauna'))->withInput('validation', \Config\Services::validation());
         }   
-    }
-
-    public function galleryFauna(): string
-    {
-        $data = [
-            'title_content' => 'Gallery of Fauna',
-            //'gafan' => $this->ModelOrganism->AllData;
-        ];
-        return view('Fauna/v_gallery_fauna', $data);
     }
 }

@@ -2,20 +2,22 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
 use App\Models\ModelOrganism;
 
 class Flora extends BaseController
 {
-    //public function __construct()
-    //{
-    //    $this->ModelOrganism = new ModelOrganism();
-    //}
+    private $ModelOrganism;
+
+    public function __construct()
+    {
+        $this->ModelOrganism = new ModelOrganism();
+    }
     
     public function index(): string
     {
         $data = [
             'title_content' => 'Flora Data Input',
+            'data_flora' => $this->ModelOrganism->findAll()
         ];
         return view('Flora/v_flora', $data);
     }
@@ -25,7 +27,7 @@ class Flora extends BaseController
         if ($this->validate([
             //Jika Lolos Validasi
             'or_name_org' => [
-                'label' => 'Flora Name',
+                'label' => 'Name of Flora',
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} Tidak Boleh Kosong!'
@@ -56,7 +58,7 @@ class Flora extends BaseController
                     'required' => '{field} Tidak Boleh Kosong!'
                 ]
             ],  'or_description' => [
-                'label' => 'Description',
+                'label' => 'Description of Flora',
                 'rules' => 'required',
                 'errors' => [
                     'required' => '{field} Tidak Boleh Kosong!'
@@ -87,22 +89,13 @@ class Flora extends BaseController
                 'or_eksitu' => $this->request->getPost('or_eksitu')
             ];
 
-            //$this->ModelOrganism->insertData($data);
-            //session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
+            $this->ModelOrganism->insertData($data);
+            session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
 
         } else {
             //Jika Tidak Lolos Validasi
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
             //return redirect()->to(base_url('Flora'))->withInput('validation', \Config\Services::validation());
         }   
-    }
-
-    public function galleryFlora(): string
-    {
-        $data = [
-            'title_content' => 'Gallery of Flora',
-            //'gaflo' => $this->ModelOrganism->AllData;
-        ];
-        return view('Flora/v_gallery_flora', $data);
     }
 }

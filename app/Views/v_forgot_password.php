@@ -22,7 +22,7 @@
             <div class="card card-outline card-primary">
                 <!-- Headline -->
                 <div class="card-header text-center">
-                    <h1><b>Flora dan Fauna</b></h1>
+                    <h1><b>Flora and Fauna</b></h1>
                 </div>
                 
                 <div class="card-body">
@@ -30,7 +30,7 @@
                     <p class="login-box-msg">You forgot your password? Here you can easily retrieve a new password.</p>
                     <form action="recover-password.html" method="post">
                         <!-- Email Column -->
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-2">
                             <input type="email" class="form-control" placeholder="Email">
                             <div class="input-group-append">
                                 <div class="input-group-text">
@@ -49,8 +49,9 @@
                     </form>
                     <!-- /.End Request Button -->
                     
+                    <br>
                     <!-- Login Button -->
-                    <p class="mt-3 mb-1">
+                    <p class="text-center mb-1">
                         <a href="<?= base_url('Auth') ?>">Login</a>
                     </p>
                     <!-- /.End Login Button -->

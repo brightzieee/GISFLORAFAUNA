@@ -2,8 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelReport;
 class User_Reporting extends BaseController
 {
+    private $ModelReport;
+
+    public function __construct()
+    {
+        $this->ModelReport = new ModelReport();
+    }
+    
     public function index(): string
     {
         $data = [
@@ -16,7 +24,7 @@ class User_Reporting extends BaseController
     {
         $data = [
             'title_content' => 'Data User Tables',
-            //'datus' => $this->ModelOrganism->AllData;
+            'data_user' => $this->ModelReport->findAll()
         ];
         return view('Report/v_data_user', $data);
     }

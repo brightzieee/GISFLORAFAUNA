@@ -24,6 +24,15 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 
                 <li class="nav-item">
+                    <a href="<?= base_url('Home') ?>" class="nav-link">
+                        <i class="nav-icon fas fa-home"></i>
+                        <p>
+                        Home
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a href="<?= base_url('Flora') ?>" class="nav-link">
                         <i class="nav-icon fas fa-tree"></i>
                         <p>
@@ -55,6 +64,15 @@
                         <i class="nav-icon fas fa-scroll"></i>
                         <p>
                         USER REPORTING INBOX
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="<?= base_url('Home/Contact') ?>" class="nav-link">
+                        <i class="nav-icon fas fa-phone"></i>
+                        <p>
+                        CONTACT US
                         </p>
                     </a>
                 </li>

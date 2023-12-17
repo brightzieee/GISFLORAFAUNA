@@ -38,19 +38,19 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Area Name</th>
-                                        <th>Species</th>
+                                        <th>Species of Organism</th>
                                         <th>Area Residents</th>
                                         <th>Address</th>
-                                        <th>Image</th>
-                                        <th>Description</th>
+                                        <th>Image of Organism</th>
+                                        <th>Description of Organism</th>
                                     </tr>
                                 </thead>
                                 <!-- /.End Headline -->
 
                                 <!-- Data -->
                                 <tbody>
-                                    //<?php $no = 1;
-                                    //foreach ($datar as $keu -> $value) { ?>
+                                    <?php $no = 1;
+                                    foreach ($data_area as $key => $value) { ?>
 
                                     <tr>
                                         <td><?= $no++ ?></td>
@@ -62,7 +62,7 @@
                                         <td><?= $value['kk_description'] ?></td>
                                     </tr>
 
-                                    //<?php } ?>
+                                    <?php } ?>
                                 </tbody>
                                 <!-- /.End Data -->
                             </table>

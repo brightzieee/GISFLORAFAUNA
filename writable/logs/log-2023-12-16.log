@@ -1,0 +1,133 @@
+CRITICAL - 2023-12-16 10:59:53 --> Undefined variable $datar
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datar', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:00:28 --> Undefined variable $datar
+in APPPATH\Views\Report\v_data_user.php on line 54.
+ 1 APPPATH\Views\Report\v_data_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datar', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 5 APPPATH\Controllers\User_Reporting.php(21): view('Report/v_data_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:02:25 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:02:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:11:50 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:16:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 11:16:51 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Report\v_data_user.php on line 54.
+ 1 APPPATH\Views\Report\v_data_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 5 APPPATH\Controllers\User_Reporting.php(29): view('Report/v_data_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-16 11:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 11:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 12:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 12:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-16 14:46:50 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Report\v_data_user.php on line 54.
+ 1 APPPATH\Views\Report\v_data_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 5 APPPATH\Controllers\User_Reporting.php(29): view('Report/v_data_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 14:46:53 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Area\v_data_area.php on line 53.
+ 1 APPPATH\Views\Area\v_data_area.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Area\\v_data_area.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Area/v_data_area', [], true)
+ 5 APPPATH\Controllers\Conservation_Area.php(119): view('Area/v_data_area', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Conservation_Area->dataArea()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conservation_Area))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 14:48:26 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Report\v_data_user.php on line 54.
+ 1 APPPATH\Views\Report\v_data_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 5 APPPATH\Controllers\User_Reporting.php(29): view('Report/v_data_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-16 14:49:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Report\v_data_user.php on line 54.
+ 1 APPPATH\Views\Report\v_data_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\gis-flora-fauna\\app\\Views\\Report\\v_data_user.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Report/v_data_user', [], true)
+ 5 APPPATH\Controllers\User_Reporting.php(29): view('Report/v_data_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User_Reporting->dataUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_Reporting))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-16 15:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-16 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

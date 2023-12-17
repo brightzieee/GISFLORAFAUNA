@@ -2,15 +2,16 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
 use App\Models\ModelArea;
 
 class Conservation_Area extends BaseController
 {
-    //public function __construct()
-    //{
-    //    $this->ModelArea = new ModelArea();
-    //}
+    private $ModelArea;
+
+    public function __construct()
+    {
+        $this->ModelArea = new ModelArea();
+    }
     
     public function index(): string
     {
@@ -100,8 +101,8 @@ class Conservation_Area extends BaseController
                 'or_eksitu' => $this->request->getPost('or_eksitu')
             ];
 
-            //$this->Modelarea->insertData($data);
-            //session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
+            $this->ModelArea->insertData($data);
+            session()->setFlashdata('insert', 'Data Berhasil Ditambahkan!');
 
             //Jika Tidak Lolos Validasi
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
@@ -113,7 +114,7 @@ class Conservation_Area extends BaseController
     {
         $data = [
             'title_content' => 'Data Conservation Area',
-            //'datar' => $this->ModelArea->AllData;
+            'data_area' => $this->ModelArea->findAll()
         ];
         return view('Area/v_data_area', $data);
     }
